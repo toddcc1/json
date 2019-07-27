@@ -1,0 +1,634 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "jxy9-yhdk",
+      "name" : "Baby Names: Beginning 2007",
+      "attribution" : "New York State Department of Health",
+      "attributionLink" : "http://www.health.ny.gov/statistics/vital_statistics/",
+      "averageRating" : 0,
+      "category" : "Health",
+      "createdAt" : 1356724562,
+      "description" : "New York State Baby Names are aggregated and displayed by the year, county, or borough where the mother resided as stated on a New York State or New York City (NYC) birth certificate. The frequency of the baby name is listed if there are 5 or more of the same baby name in a county outside of NYC or 10 or more of the same baby name in a NYC borough.",
+      "displayType" : "table",
+      "downloadCount" : 38133,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1527713966,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 28927042,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1527713207,
+      "publicationGroup" : 583607,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1527713086,
+      "rowsUpdatedBy" : "s9j2-nqmr",
+      "tableId" : 15236047,
+      "totalTimesRated" : 0,
+      "viewCount" : 74565,
+      "viewLastModified" : 1554734629,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1527713207,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 582096,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1527713207,
+        "workflowId" : 1966,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "s9j2-nqmr",
+          "displayName" : "Open Data NY - DOH"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 361599813,
+        "name" : "Year",
+        "dataTypeName" : "number",
+        "description" : "Year data was collected. ",
+        "fieldName" : "year",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6477901,
+        "width" : 89,
+        "cachedContents" : {
+          "largest" : "2016",
+          "non_null" : 235510,
+          "average" : "2014.408819158422",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2013",
+            "count" : 20
+          }, {
+            "item" : "2012",
+            "count" : 19
+          }, {
+            "item" : "2011",
+            "count" : 18
+          }, {
+            "item" : "2009",
+            "count" : 17
+          }, {
+            "item" : "2008",
+            "count" : 16
+          }, {
+            "item" : "2007",
+            "count" : 15
+          }, {
+            "item" : "2010",
+            "count" : 14
+          }, {
+            "item" : "2014",
+            "count" : 13
+          }, {
+            "item" : "2015",
+            "count" : 12
+          }, {
+            "item" : "2016",
+            "count" : 11
+          } ],
+          "smallest" : "2007",
+          "sum" : "474413421"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "center",
+          "mask" : "####"
+        }
+      }, {
+        "id" : 361599814,
+        "name" : "First Name",
+        "dataTypeName" : "text",
+        "description" : "First Name.",
+        "fieldName" : "first_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 6477902,
+        "width" : 260,
+        "cachedContents" : {
+          "largest" : "ZYZANNA",
+          "non_null" : 235510,
+          "null" : 0,
+          "top" : [ {
+            "item" : "ZYRA",
+            "count" : 20
+          }, {
+            "item" : "ZYRE",
+            "count" : 19
+          }, {
+            "item" : "ZYRESE",
+            "count" : 18
+          }, {
+            "item" : "ZYRIE",
+            "count" : 17
+          }, {
+            "item" : "ZYRIEANNA",
+            "count" : 16
+          }, {
+            "item" : "ZYZANNA",
+            "count" : 15
+          } ],
+          "smallest" : "A"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 361599815,
+        "name" : "County",
+        "dataTypeName" : "text",
+        "description" : "Location where the baby’s mother resided as stated on their \nbirth certificate.",
+        "fieldName" : "county",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 6477903,
+        "width" : 210,
+        "cachedContents" : {
+          "largest" : "YATES",
+          "non_null" : 235510,
+          "null" : 0,
+          "top" : [ {
+            "item" : "KINGS",
+            "count" : 20
+          }, {
+            "item" : "SUFFOLK",
+            "count" : 19
+          }, {
+            "item" : "NASSAU",
+            "count" : 18
+          }, {
+            "item" : "QUEENS",
+            "count" : 17
+          }, {
+            "item" : "Bronx",
+            "count" : 16
+          }, {
+            "item" : "Erie",
+            "count" : 15
+          }, {
+            "item" : "Kings",
+            "count" : 14
+          }, {
+            "item" : "Queens",
+            "count" : 13
+          }, {
+            "item" : "Monroe",
+            "count" : 12
+          }, {
+            "item" : "Nassau",
+            "count" : 11
+          }, {
+            "item" : "New York",
+            "count" : 10
+          }, {
+            "item" : "Oneida",
+            "count" : 9
+          }, {
+            "item" : "Onondaga",
+            "count" : 8
+          }, {
+            "item" : "Orange",
+            "count" : 7
+          }, {
+            "item" : "Richmond",
+            "count" : 6
+          }, {
+            "item" : "Rockland",
+            "count" : 5
+          }, {
+            "item" : "Suffolk",
+            "count" : 4
+          }, {
+            "item" : "Ulster",
+            "count" : 3
+          }, {
+            "item" : "Westchester",
+            "count" : 2
+          }, {
+            "item" : "Dutchess",
+            "count" : 1
+          } ],
+          "smallest" : "Albany"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 361599816,
+        "name" : "Sex",
+        "dataTypeName" : "text",
+        "description" : "F= Female\nM= Male\n",
+        "fieldName" : "sex",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 6477904,
+        "width" : 82,
+        "cachedContents" : {
+          "largest" : "M",
+          "non_null" : 235510,
+          "null" : 0,
+          "top" : [ {
+            "item" : "M",
+            "count" : 20
+          }, {
+            "item" : "F",
+            "count" : 19
+          } ],
+          "smallest" : "F"
+        },
+        "format" : {
+          "align" : "center"
+        }
+      }, {
+        "id" : 361599817,
+        "name" : "Count",
+        "dataTypeName" : "number",
+        "description" : "Five (5) or more of the same baby name in a county outside of NYC;  Ten (10) or more of the same baby name in a NYC borough.\n",
+        "fieldName" : "name_count",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 6477905,
+        "width" : 99,
+        "cachedContents" : {
+          "largest" : "297",
+          "non_null" : 235510,
+          "average" : "5.979588977113498",
+          "null" : 0,
+          "top" : [ {
+            "item" : "16",
+            "count" : 20
+          }, {
+            "item" : "15",
+            "count" : 19
+          }, {
+            "item" : "6",
+            "count" : 18
+          }, {
+            "item" : "10",
+            "count" : 17
+          }, {
+            "item" : "14",
+            "count" : 16
+          }, {
+            "item" : "11",
+            "count" : 15
+          }, {
+            "item" : "13",
+            "count" : 14
+          }, {
+            "item" : "5",
+            "count" : 13
+          }, {
+            "item" : "12",
+            "count" : 12
+          }, {
+            "item" : "19",
+            "count" : 11
+          }, {
+            "item" : "7",
+            "count" : 10
+          }, {
+            "item" : "8",
+            "count" : 9
+          }, {
+            "item" : "9",
+            "count" : 8
+          }, {
+            "item" : "25",
+            "count" : 7
+          }, {
+            "item" : "23",
+            "count" : 6
+          }, {
+            "item" : "22",
+            "count" : 5
+          }, {
+            "item" : "18",
+            "count" : 4
+          }, {
+            "item" : "20",
+            "count" : 3
+          }, {
+            "item" : "21",
+            "count" : 2
+          }, {
+            "item" : "24",
+            "count" : 1
+          } ],
+          "smallest" : "1",
+          "sum" : "1408253"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "year"
+          }, {
+            "ascending" : false,
+            "columnFieldName" : "count"
+          }, {
+            "ascending" : true,
+            "columnFieldName" : "first_name"
+          }, {
+            "ascending" : true,
+            "columnFieldName" : "county"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "attachments" : [ {
+          "filename" : "NYSDOH_BabyNames_Overview.pdf",
+          "assetId" : "",
+          "blobId" : "EE5A3D0F-8475-4617-AB91-67886CD6FF0F",
+          "name" : "NYSDOH_BabyNames_Overview.pdf"
+        }, {
+          "filename" : "NYSDOH_BabyNames_DataDictionary.pdf",
+          "assetId" : "",
+          "blobId" : "76ED6252-BAB0-48BC-BD17-A56535F281C3",
+          "name" : "NYSDOH_BabyNames_DataDictionary.pdf"
+        }, {
+          "filename" : "NYSDOH_BabyNames_Benefits.pdf",
+          "assetId" : "",
+          "blobId" : "C0499411-1105-4C08-99AF-B36844AA88DA",
+          "name" : "NYSDOH_BabyNames_Benefits.pdf"
+        } ],
+        "custom_fields" : {
+          "Dataset Summary" : {
+            "Posting Frequency" : "Yearly",
+            "Contact Information" : "bio-info@health.ny.gov",
+            "Time Period" : "Beginning 2007",
+            "Office/Division" : "Office of Quality and Patient Safety; Division of Information and Statistics",
+            "Coverage" : "Statewide",
+            "Granularity" : "First Name",
+            "Units" : "First Name",
+            "Dataset Owner" : "Bureau of Vital and Health Statistics",
+            "Data Frequency" : "Yearly"
+          },
+          "Local Data" : {
+            "County_Column" : "county",
+            "County Filter" : "Yes"
+          },
+          "Additional Resources" : {
+            "See Also" : "https://nycopendata.socrata.com/"
+          },
+          "Disclaimers" : {
+            "Limitations" : "Baby names are aggregated and displayed by the year, county or borough where the mother resided as stated on a New York State or New York City (NYC) birth certificate.The frequency of the Baby Name is listed, if there are:  5 or more of the same baby name in a county outside of  NYC; or 10 or more of the same baby name in a NYC borough."
+          },
+          "Dataset Information" : {
+            "Agency" : "Health, Department of"
+          }
+        },
+        "filterCondition" : {
+          "metadata" : {
+            "advanced" : true,
+            "unifiedVersion" : 2
+          },
+          "children" : [ {
+            "metadata" : {
+              "tableColumnId" : {
+                "583607" : 6477901
+              },
+              "includeAuto" : 10,
+              "operator" : "EQUALS"
+            },
+            "type" : "operator",
+            "value" : "OR"
+          }, {
+            "metadata" : {
+              "tableColumnId" : {
+                "583607" : 6477902
+              },
+              "operator" : "EQUALS"
+            },
+            "type" : "operator",
+            "value" : "OR"
+          }, {
+            "metadata" : {
+              "tableColumnId" : {
+                "583607" : 6477903
+              },
+              "operator" : "EQUALS"
+            },
+            "type" : "operator",
+            "value" : "OR"
+          }, {
+            "metadata" : {
+              "tableColumnId" : {
+                "583607" : 6477904
+              },
+              "includeAuto" : 2,
+              "operator" : "EQUALS",
+              "multiSelect" : false
+            },
+            "type" : "operator",
+            "value" : "OR"
+          } ],
+          "type" : "operator",
+          "value" : "AND"
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "s9j2-nqmr",
+        "displayName" : "Open Data NY - DOH",
+        "profileImageUrlLarge" : "/api/users/s9j2-nqmr/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/s9j2-nqmr/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/s9j2-nqmr/profile_images/TINY",
+        "screenName" : "Open Data NY - DOH",
+        "type" : "interactive"
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 361599813,
+            "type" : "column"
+          }
+        }, {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 361599817,
+            "type" : "column"
+          }
+        }, {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 361599814,
+            "type" : "column"
+          }
+        }, {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 361599815,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "s9j2-nqmr",
+        "displayName" : "Open Data NY - DOH",
+        "profileImageUrlLarge" : "/api/users/s9j2-nqmr/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/s9j2-nqmr/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/s9j2-nqmr/profile_images/TINY",
+        "screenName" : "Open Data NY - DOH",
+        "type" : "interactive"
+      },
+      "tags" : [ "baby", "names", "consumer resources", "births-deaths-other facts" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-56s8~p76n_zvtk", "00000000-0000-0000-39E1-487334739D3C", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "DAVID", "Kings", "M", "231" ]
+, [ "row-ee6v-77ie~ftiy", "00000000-0000-0000-8B88-BD3CCC0C330E", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "JACOB", "Kings", "M", "228" ]
+, [ "row-rt8z.sed7-3w6x", "00000000-0000-0000-1940-A818137A828B", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "ETHAN", "Queens", "M", "224" ]
+, [ "row-tgxu.yhgr.cmg2", "00000000-0000-0000-B700-04E1F1999B1F", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "LIAM", "Queens", "M", "217" ]
+, [ "row-cw8y_n9sf_6vx6", "00000000-0000-0000-74FB-4582A2CA6F80", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "OLIVIA", "Kings", "F", "210" ]
+, [ "row-68u2-x6a6-rexg", "00000000-0000-0000-D124-5450A3AB7CCA", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "ETHAN", "Kings", "M", "209" ]
+, [ "row-46hu.iai7.wpgc", "00000000-0000-0000-9A52-D5AA7C9E6D23", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "DANIEL", "Kings", "M", "199" ]
+, [ "row-rh36.w742.xkdn", "00000000-0000-0000-1CE5-6591D9600F24", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "MOSHE", "Kings", "M", "198" ]
+, [ "row-ysxy_dugj.3y98", "00000000-0000-0000-2E9E-9434204D7F0D", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "LIAM", "Bronx", "M", "186" ]
+, [ "row-vk7m_ezvv.t3mh", "00000000-0000-0000-4DBB-CD2B8491358A", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "NOAH", "Kings", "M", "184" ]
+, [ "row-k4u9_un55.v94a", "00000000-0000-0000-237D-025327C1D9BB", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "ESTHER", "Kings", "F", "183" ]
+, [ "row-jjem_4n2b-pp2n", "00000000-0000-0000-5878-54012B2E4265", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "SOPHIA", "Queens", "F", "182" ]
+, [ "row-w3wu~3crg.5e7u", "00000000-0000-0000-95A5-C1D1AA66C847", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "RACHEL", "Kings", "F", "179" ]
+, [ "row-cdf4.hsmw.xint", "00000000-0000-0000-D554-49806B89C3A9", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "AIDEN", "Queens", "M", "177" ]
+, [ "row-564d~3pz3-f7nw", "00000000-0000-0000-E138-6F4213A4D545", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "MATTHEW", "Queens", "M", "176" ]
+, [ "row-75sc~m4mz_neyk", "00000000-0000-0000-E2E2-0D75DCEDF3C2", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "NOAH", "Queens", "M", "175" ]
+, [ "row-3uqn~8756~taef", "00000000-0000-0000-D879-8D5DB8F8DF02", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "SARAH", "Kings", "F", "174" ]
+, [ "row-ks22-rq9t~8jk2", "00000000-0000-0000-EB12-C063B8FCD122", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "EMMA", "Queens", "F", "171" ]
+, [ "row-t9wr-gd8x.e8c3", "00000000-0000-0000-A568-850C9BE4ACCD", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "LEAH", "Kings", "F", "170" ]
+, [ "row-s6dz~49iy.av6c", "00000000-0000-0000-3B68-BA3887C91D95", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "JACOB", "Queens", "M", "169" ]
+, [ "row-jm3q~ypui~ter6", "00000000-0000-0000-0D9E-5E3649971CF9", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "LIAM", "Kings", "M", "168" ]
+, [ "row-x3wd~jjse~psjy", "00000000-0000-0000-37FE-AE8B129C2529", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "AIDEN", "Kings", "M", "167" ]
+, [ "row-reaj-jtuq~w57n", "00000000-0000-0000-DD72-2CB1A9651144", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "LUCAS", "Queens", "M", "165" ]
+, [ "row-fp2f_a5sc-nigq", "00000000-0000-0000-CDC4-D9CB72A9CB75", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "CHAYA", "Kings", "F", "164" ]
+, [ "row-v7gz_48vn-4t7k", "00000000-0000-0000-C1B7-5CBDB2B3F3DC", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "SOPHIA", "Kings", "F", "164" ]
+, [ "row-m24g.m477-3b53", "00000000-0000-0000-85C3-B2703C0E4687", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "JOSEPH", "Kings", "M", "162" ]
+, [ "row-zsnc-s66j-5veu", "00000000-0000-0000-C130-A0A2DCA2D932", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "DYLAN", "Queens", "M", "156" ]
+, [ "row-hz8x-kjgw-tyr9", "00000000-0000-0000-1E2F-3E2797B51F65", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "OLIVIA", "Queens", "F", "156" ]
+, [ "row-79vz-em9v~8f87", "00000000-0000-0000-AA63-04FBC548EECF", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "MICHAEL", "Kings", "M", "154" ]
+, [ "row-4bre_x6mw~q2cp", "00000000-0000-0000-2002-D44722651839", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "MIA", "Queens", "F", "151" ]
+, [ "row-aai4_qvzs.3uqb", "00000000-0000-0000-622D-32286F88BFCB", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "RYAN", "Queens", "M", "150" ]
+, [ "row-g64v.xw9g.ef45", "00000000-0000-0000-7E0F-F395C3A21FC6", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "DANIEL", "Queens", "M", "149" ]
+, [ "row-z9si.hysb-qpdw", "00000000-0000-0000-50FB-F3C4E012331C", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "ABRAHAM", "Kings", "M", "148" ]
+, [ "row-zrhp.tget_5jzg", "00000000-0000-0000-3A59-298B8265917F", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "AVA", "Kings", "F", "148" ]
+, [ "row-d7td-7c62.9kra", "00000000-0000-0000-0903-7B7550F5DF3A", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "ISABELLA", "Queens", "F", "148" ]
+, [ "row-44hb_6jzp.d5ym", "00000000-0000-0000-932F-42C7984807CF", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "JAYDEN", "Queens", "M", "144" ]
+, [ "row-z5e4.2xrb.k4wa", "00000000-0000-0000-004C-9B20F1A42688", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "EMILY", "Queens", "F", "140" ]
+, [ "row-u4t9.6g3p~xgs6", "00000000-0000-0000-A297-1D5BAD52C464", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "JACOB", "Bronx", "M", "140" ]
+, [ "row-w5t4-zfck_d5ne", "00000000-0000-0000-877D-70033CD23C70", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "JAYDEN", "Kings", "M", "139" ]
+, [ "row-m8nw~miww~pi8e", "00000000-0000-0000-F47A-4B2E035811D2", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "MICHAEL", "Queens", "M", "137" ]
+, [ "row-dhhd~2h58_67uz", "00000000-0000-0000-F637-1C7D7744B601", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "MATTHEW", "Kings", "M", "136" ]
+, [ "row-u6bu.dfxv~am7z", "00000000-0000-0000-EF58-844966F3B580", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "NOAH", "Bronx", "M", "136" ]
+, [ "row-akyg~qia7.c9a9", "00000000-0000-0000-00CE-D71D8EA8B882", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "CHANA", "Kings", "F", "133" ]
+, [ "row-mvxm-4rz2.yy3w", "00000000-0000-0000-FD2D-E7951EF02316", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "RYAN", "Kings", "M", "133" ]
+, [ "row-9htw~zwit.btnu", "00000000-0000-0000-280C-5CA0499D8689", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "ALEXANDER", "Kings", "M", "131" ]
+, [ "row-5que-kxr5~iabk", "00000000-0000-0000-7CCA-7473DC7A4F22", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "ETHAN", "Bronx", "M", "130" ]
+, [ "row-c722-7mpp-ebip", "00000000-0000-0000-AC06-5B789CBD79F9", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "ISAAC", "Kings", "M", "130" ]
+, [ "row-j4ib_ru5a-gk8s", "00000000-0000-0000-A68C-9CE05A880F88", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "EMILY", "Kings", "F", "129" ]
+, [ "row-4u4u~zh8q-h64d", "00000000-0000-0000-BE05-5CB42538E69C", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "LUCAS", "Kings", "M", "127" ]
+, [ "row-xcmu~6d6x~3ckv", "00000000-0000-0000-FFBA-B9706A67D55B", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "MATTHEW", "Suffolk", "M", "125" ]
+, [ "row-a4pq~5iac.zxmk", "00000000-0000-0000-A600-C34AF32A54DB", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "SAMUEL", "Kings", "M", "123" ]
+, [ "row-cvhs-rkn4-a2n5", "00000000-0000-0000-E212-A62BE466E5DD", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "ALEXANDER", "Queens", "M", "122" ]
+, [ "row-j6p7~qd5c-wj3q", "00000000-0000-0000-C5C4-93C708069E9B", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "MIA", "Kings", "F", "120" ]
+, [ "row-t7we.sxbn_56dr", "00000000-0000-0000-F58F-E6FFFB854DFE", 0, 1527713235, null, 1527713235, null, "{ }", "2016", "JOSEPH", "Suffolk", "M", "119" ]
